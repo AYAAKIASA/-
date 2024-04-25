@@ -1,0 +1,13 @@
+function divide(a, b) {
+  // Divide two numbers
+  if (b === 0) {
+    return "Cannot divide by zero";
+  }
+  return a / b;
+}
+
+// Example usage:
+let num1 = 10;
+let num2 = 2;
+let result = divide(num1, num2);
+console.log(`The quotient of ${num1} divided by ${num2} is: ${result}`);
